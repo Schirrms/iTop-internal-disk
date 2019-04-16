@@ -12,6 +12,7 @@ Dict::Add('FR FR', 'French', 'Français', array(
 	'Class:InternalLogicalVolume' => 'Volume Interne',
 	'Class:InternalLogicalVolume/Attribute:name' => 'Nom du volume',
 	'Class:InternalLogicalVolume/Attribute:description' => 'Description',
+	'Class:InternalLogicalVolume/Attribute:raidType' => 'Type de Raid',
 	'Class:InternalLogicalVolume/Attribute:mountPoint' => 'Point de montage',
 	'Class:InternalLogicalVolume/Attribute:capacity' => 'Capacité Totale',
 	'Class:InternalLogicalVolume/Attribute:used' => 'Capacité utilisée',

@@ -40,6 +40,11 @@
 					<default_value/>
 					<is_null_allowed>true</is_null_allowed>
 				</field>
+				<field id="raidType" xsi:type="AttributeString">
+					<sql>raidtype</sql>
+					<default_value/>
+					<is_null_allowed>true</is_null_allowed>
+				</field>
 				<field id="mountPoint" xsi:type="AttributeString">
 					<sql>mountpoint</sql>
 					<default_value/>
@@ -78,14 +83,17 @@
 						<item id="description">
 							<rank>20</rank>
 						</item>
-						<item id="mountPoint">
+						<item id="raidType">
 							<rank>30</rank>
 						</item>
-						<item id="capacity">
+						<item id="mountPoint">
 							<rank>40</rank>
 						</item>
-						<item id="used">
+						<item id="capacity">
 							<rank>50</rank>
+						</item>
+						<item id="used">
+							<rank>60</rank>
 						</item>
 					</items>
 				</details>
@@ -100,8 +108,11 @@
 						<item id="description">
 							<rank>20</rank>
 						</item>
-						<item id="mountPoint">
+						<item id="raidType">
 							<rank>30</rank>
+						</item>
+						<item id="mountPoint">
+							<rank>40</rank>
 						</item>
 					</items>
 				</list>
@@ -116,8 +127,11 @@
 						<item id="description">
 							<rank>20</rank>
 						</item>
-						<item id="mountPoint">
+						<item id="raidType">
 							<rank>30</rank>
+						</item>
+						<item id="mountPoint">
+							<rank>40</rank>
 						</item>
 					</items>
 				</search>
