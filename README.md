@@ -1,6 +1,18 @@
 # iTop-internal-disk
 This extension adds the ability to store the internal disk configuration of a server
 
-Beware ! At this time, this is much more an idea than something you can install :)
+# Goal
+Logical Volumes in a server are volumesfrom an external disk array. I didn't see a way of showing the internal disks (that we use mostly for boot and OS installation).
 
-2019-04-05 0.1.0 : really first test version (probably empty until dawn :))
+This extension adds a new Tab for Servers, 'Internal volumes'. In this tab, you can describe your internal disk configuration.
+
+The internal Disk Tab :
+
+![Internal Disk TAB](images/Server-Internal-Disks-Tab.png)
+
+And the information for each internal disks
+
+![Internal Disk Details](images/Server-Internal-Disks-Details.png)
+
+# Installation
+As for all my extensions, just download the zip file, and copy the 'schirrms-...' directory in your extensions directory, then rerun the setup as usual.
