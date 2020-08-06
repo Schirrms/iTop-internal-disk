@@ -2,7 +2,7 @@
 This extension adds the ability to store the internal disk configuration of a server
 
 # Goal
-Logical Volumes in a server are volumesfrom an external disk array. I didn't see a way of showing the internal disks (that we use mostly for boot and OS installation).
+Logical Volumes in a server are volumes from an external disk array. I didn't see a way of showing the internal disks (that we use mostly for boot and OS installation).
 
 This extension adds a new Tab for Servers, 'Internal volumes'. In this tab, you can describe your internal disk configuration.
 
